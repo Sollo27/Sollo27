@@ -1,11 +1,36 @@
 h1 {
-  color: royalblue;
   text-align: center;
   font-family: Playfair Display SC;
+  font-size: 3rem;
+}
+
+body {
+  margin: 0px;
+  font-size: 1.5rem;
 }
 
 hr{
   border-style: double;
   border-width: 5px;
   background-color: red;
+}
+
+.page-body {
+  padding: 5%;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+.page-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('football.jpg');
+  padding: 5%;
+  color: white;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:300px;
 }
